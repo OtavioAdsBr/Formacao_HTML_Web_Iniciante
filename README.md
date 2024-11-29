@@ -51,4 +51,4 @@ Ensinar os conceitos básicos de HTML para iniciantes de forma prática, prepara
 
 1. Clone o repositório para sua máquina:
    ```bash
-   git clone https://github.com/seu-usuario/formacao-html-iniciantes.git
+   git clone https://github.com/OtavioAdsBr/Formacao_HTML_Web_Iniciante.git
