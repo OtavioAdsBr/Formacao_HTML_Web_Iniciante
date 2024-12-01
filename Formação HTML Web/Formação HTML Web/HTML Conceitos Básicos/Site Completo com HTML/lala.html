@@ -1,0 +1,17 @@
+<canvas id="animationCanvas" width="300" height="150" style="border:1px solid black;"></canvas>
+
+<script>
+    const canvas = document.getElementById('animationCanvas');
+    const ctx = canvas.getContext('2d');
+    let x = 0;
+
+    function draw() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        ctx.fillStyle = 'green';
+        ctx.fillRect(x, 50, 50, 50);
+        x += 2;
+        if (x > canvas.width) x = -50;
+        requestAnimationFrame(draw);
+    }
+    draw();
+</script>
